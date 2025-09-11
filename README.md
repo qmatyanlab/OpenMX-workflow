@@ -1,6 +1,7 @@
 # OpenMX Workflow
 
-A high-throughput workflow for **OpenMX** calculations using [atomate](https://github.com/hackingmaterials/atomate).
+A high-throughput workflow for **OpenMX** calculations using [atomate](https://github.com/hackingmaterials/atomate). 
+This workflow was also employed in our recent work: [arXiv:2505.04862](https://arxiv.org/abs/2505.04862).
 
 This repository is adapted from [openmx-wf](https://github.com/tsaie79/openmx-wf) by [@tsaie79](https://github.com/tsaie79).  
 The main extension is the post-processing of OpenMX outputs (`.scfout` and `.out`) to compute response functions such as:
@@ -60,9 +61,19 @@ or
 ```bash
 qlaunch rapidfire -m 1
 ```
-Citing
+## Citing
 
 If you use this workflow in your research, please cite:
 
-
+```
+@misc{hsu2025accuratepredictionsequentialtensor,
+      title={Accurate Prediction of Tensorial Spectra Using Equivariant Graph Neural Network}, 
+      author={Ting-Wei Hsu and Zhenyao Fang and Arun Bansil and Qimin Yan},
+      year={2025},
+      eprint={2505.04862},
+      archivePrefix={arXiv},
+      primaryClass={cond-mat.mtrl-sci},
+      url={https://arxiv.org/abs/2505.04862}, 
+}
+```
 
