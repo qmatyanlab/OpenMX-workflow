@@ -62,6 +62,8 @@ or
 qlaunch rapidfire -m 1
 ```
 After the calculations are finished, all results will be stored in the **MongoDB** database.  
+<img width="406" height="438" alt="image" src="https://github.com/user-attachments/assets/e4685a58-f76c-4cc9-98db-9d824587a706" />
+
 You can easily explore and query the generated data using **MongoDB Compass** or any other MongoDB client.
 
 ## Citing
