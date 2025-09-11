@@ -15,7 +15,7 @@ The main extension is the post-processing of OpenMX outputs (`.scfout` and `.out
 
 This workflow assumes that users:
 
-- Are familiar with **OpenMX** and have a compiled version installed.
+- Are familiar with **OpenMX** and have a compiled version **3.9** installed.
 - Have **Julia** installed.
 - Have the packages required by [DeepH](https://github.com/mzjb/DeepH-pack).  
   (Additionally, you will need [HopTB.jl](https://github.com/HopTB/HopTB.jl).)
