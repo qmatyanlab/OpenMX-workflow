@@ -1,0 +1,6 @@
+CONFIG_FILE_DIR: /path/to/your/config
+WEBSERVER_HOST: "localhost"
+EXCEPT_DETAILS_ON_RERUN: True
+
+
+### !!! MAKING SURE YOU DO THIS: export FW_CONFIG_FILE=/path/to/your/config/FW_config.yaml

@@ -1,0 +1,10 @@
+host: localhost
+logdir: /path/to/your/logs
+name: database name
+password: angus
+port: 12347
+ssl_ca_file: null
+strm_lvl: INFO
+user_indices: []
+username: angush
+wf_user_indices: []

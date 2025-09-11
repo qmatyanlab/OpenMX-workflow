@@ -1,0 +1,11 @@
+{
+    "host": "localhost",
+    "port": 12347,
+    "database": ">>your_database<<",
+    "collection": ">>your_collection<<", 
+    "admin_user": ">>username like angush<<",
+    "admin_password": ">>pwd like angus<<",
+    "readonly_user": "",
+    "readonly_password": "",
+    "aliases": {}
+}

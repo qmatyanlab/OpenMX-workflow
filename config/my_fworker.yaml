@@ -1,0 +1,13 @@
+name: database name # like OpenmxOptical
+category: category #like 'refined_recalc'
+query: '{}'
+env:
+  db_file: /path/to/your/config/db.json
+  openmx_dft_data_path: /path/to/your/openmx/DFT_DATA19
+  openmx_cmd: srun -n 32 /path/to/your/openmx/source/openmx
+  nt: 8 
+  deeph_preprocess_cmd: shifter --image=angushtw/deeph-custom:0.4 --volume=`pwd`:/data main /data # if you're using NERSC, this should be accessible, if not please pull it
+  shift_current_cmd: '[ -s openmx.out ] && cat openmx.out >> openmx.scfout && module load julia && time julia -p 128 /path/to/your/config/calc_shift_current.jl'
+  permittivity_cmd: '[ -s openmx.out ] && cat openmx.out >> openmx.scfout && module load julia && time julia -p 128 /path/to/your/config/calc_permittivity.jl'
+
+scratch_dir:
