@@ -50,7 +50,7 @@ This will install the necessary dependencies for the workflow, including two cus
 This will:
 
 - Convert your input into the required `openmx.dat` format.  
-- Store the job in the **FireWorks** database.  
+- Insert the workflow into the FireWorks database (MongoDB).
 
 From your designated launch site, execute the workflow using FireWorks:
 
