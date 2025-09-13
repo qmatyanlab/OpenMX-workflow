@@ -51,7 +51,6 @@ submit_single_openmx_from_poscar(
     kppa=2000,
     scf_criterion=3.67e-08,
     run_deeph_preprocess=True,
-    run_shift_current = False,
     run_permittivity = True,
     category=">>this need to match with my_fworker.yaml<<",           
     # extra_fields={"source": "local_poscar"}  # optional
