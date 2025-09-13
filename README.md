@@ -7,7 +7,6 @@ This repository is adapted from [openmx-wf](https://github.com/tsaie79/openmx-wf
 The main extension is the post-processing of OpenMX outputs (`.scfout` and `.out`) to compute response functions such as:
 
 - Frequency-dependent **permittivity** tensor
-- **Shift current conductivity** tensor
 
 ---
 
