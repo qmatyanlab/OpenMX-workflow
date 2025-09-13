@@ -40,7 +40,10 @@ class BatchRunner:
             mpid = st_dict[i][0]
             st = st_dict[i][1]
 
-            fw = OpenmxScfFW(structure=st, run_deeph_preprocess=True, override_default_openmx_params={"kppa": kppa,"scf_criterion":3.67e-08})
+            fw = OpenmxScfFW(structure=st, 
+                             run_deeph_preprocess=True, 
+                             run_permittivity = True,
+                             override_default_openmx_params={"kppa": kppa,"scf_criterion":3.67e-08})
             wf = Workflow([fw], name=f"{mpid}")
 
             def get_kpts(kppa, structure):
