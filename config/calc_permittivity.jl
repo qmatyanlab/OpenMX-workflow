@@ -35,7 +35,7 @@ println(μ)
 sm = SharedTBModel(tm)
 kgrid_density = 0.05  # in units of 1/Å
 # Compute mesh size
-meshsize = [round(Int, norm(tm.rlat[i, :]) / kgrid_density) for i in 1:3]
+meshsize = [round(Int, norm(tm.rlat'[i, :]) / kgrid_density) for i in 1:3]
 meshsize = [x % 2 == 0 ? x : x + 1 for x in meshsize]  
 println("Calculated mesh size: ", meshsize)
 ωs = collect(range(0, stop=30, length=3001))
