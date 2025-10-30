@@ -16,5 +16,4 @@
 4. **Important note**  
    Users should carefully check the **smearing** and **k-grid density** parameters in  
    - `calc_permittivity.jl`  
-   - `calc_shift_current.jl`  
    to ensure they are appropriate for their calculations.
