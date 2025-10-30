@@ -2,7 +2,7 @@
 
 Installation test on Ubuntu 22.04.5. The main issue is the compiler. Intel remove the support of the classic `icc` `ifort`. The installation gets more trickier as we need an 2023 version of intel compiler. Luckily someone test and found a stable way to install OpenMX based on the new 2025 oneAPI toolkit. Additional great reference for installation provided by Prof. Y.-T. Lee at [https://sites.google.com/site/ytl821/home/codes]
 
-With the new oneAPI and HPC toolkit from Intel:
+With the new oneAPI and HPC toolkit from Intel: [https://www.intel.com/content/www/us/en/developer/tools/oneapi/hpc-toolkit-download.html]
 
 Load the environment first
 
