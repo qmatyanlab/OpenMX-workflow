@@ -70,14 +70,13 @@ You can easily explore and query the generated data using **MongoDB Compass** or
 If you use this workflow in your research, please cite:
 
 ```
-@misc{hsu2025accuratepredictionsequentialtensor,
-      title={Accurate Prediction of Tensorial Spectra Using Equivariant Graph Neural Network}, 
-      author={Ting-Wei Hsu and Zhenyao Fang and Arun Bansil and Qimin Yan},
-      year={2025},
-      eprint={2505.04862},
-      archivePrefix={arXiv},
-      primaryClass={cond-mat.mtrl-sci},
-      url={https://arxiv.org/abs/2505.04862}, 
+@article{hsu2026accurate,
+  title   = {Accurate prediction of tensorial spectra using equivariant graph neural network},
+  author  = {Hsu, Ting-Wei and Fang, Zhenyao and Bansil, Arun and Yan, Qimin},
+  journal = {Nature Communications},
+  year    = {2026},
+  doi     = {10.1038/s41467-026-69159-9},
+  url     = {https://doi.org/10.1038/s41467-026-69159-9}
 }
 ```
 
